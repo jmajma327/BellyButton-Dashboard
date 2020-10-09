@@ -156,7 +156,7 @@ var washResult = washResultArray[0];
     ];
     
     // 5. Create the layout for the gauge chart.
-    var gaugeLayout = { width: 400, height: 250, margin: {t: 0, b: 0} 
+    var gaugeLayout = { width: 500, height: 400, margin: {t: 0, b: 0} 
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
