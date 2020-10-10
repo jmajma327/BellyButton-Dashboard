@@ -117,7 +117,8 @@ var bubbleLayout = {
   title: 'Bacteria Cultures Per Sample',
   showlegend: false,
   hovermode: 'closest',
-  xaxis: otuLabels
+  xaxis: {title: "OTU ID"},
+    
 };
 
 // 3. Use Plotly to plot the data with the layout.
